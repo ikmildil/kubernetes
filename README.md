@@ -1,5 +1,5 @@
 # Creating Kubernetes Cluster Using Kubeadm:
-My focus is not to have a long documentation about Kubernetes working and it’s architecture but more emphasis on how these commands and tools work in conjunction to make up our cluster. All these commands can be executed individually  step by step or run in a single script. When run individually we can find out  what really goes into creating a Kubernetes Cluster. 
+My focus is not to have a long documentation about inner workings of Kubernetes and it’s architecture but more emphasis on how these commands and tools work in conjunction to make up our Kubernetes cluster. All these commands can be executed individually  step by step or run in a single script. When run individually we can find out  what really goes into creating a Kubernetes Cluster. That's the way i will recommend others to do. At least once to know what really goes on.
 
 These scripts have been tested on both Ubuntu 20.04 and 22.04 editions. I recommend 20.04 edition if possible because I have used this extensively in my own lab. The only difference regarding 22.04 that I came across was that while running scripts, the following  message  kept occurring which can be ignored. 
 
@@ -7,8 +7,8 @@ These scripts have been tested on both Ubuntu 20.04 and 22.04 editions. I recomm
 
 ## Pre-requisites and Other Assumptions
 - Knowledge of both Linux and Kubernetes. 
-- 1 VM for Control Plane
-- 2 VMs for Worker Nodes
+- 1 VM for Control Plane: 2 vCPU 2 GB RAM
+- 2 VMs for Worker Nodes: 2 vCPU 2 GB RAM
 - Installed OS: Ubuntu 20.04 or 22.04
 
 You can either have these VMs in your own home lab or in the Cloud. Mine are in the  cloud. I have some usage of DigitalOcean free tier remaining, which I will be making use of. As long as you are using Ubuntu 20.04  or 22.04  make sure that the networking is properly configured, you should not have any problem to follow along.
