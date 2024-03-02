@@ -46,7 +46,7 @@ Now that all this out of the way lets just have some fun with it. Let’s Do thi
 This will be run on all the nodes. Workers and Control/Master
 ```	
 2-  run_on_master.sh
-3- run_on_master-extra
+3- run_on_master-extra.sh
 ```
 These two scripts should be run on Control/Master node only.
 
