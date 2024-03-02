@@ -234,12 +234,11 @@ kind: List
 metadata:
   resourceVersion: ""
 ```
-==============================================
-After this we don’t have to specify ‘storageClassName’ in our PVC command whether that be a Imperative and Declarative.
+After this we don’t have to specify `storageClassName` in our PVC command whether that be a Imperative or Declarative.
 
 
 This should conclude our lab. 
-Thanks.
+### Thanks.
 
 
 
