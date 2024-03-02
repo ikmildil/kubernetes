@@ -201,8 +201,7 @@ Add the following line;
 storageclass.kubernetes.io/is-default-class: "true"
 ```        
 
-now our storage-class should look something similar to the one  below;
-==============================================
+Now our storage-class should look something similar to the one  below;
 ```
 apiVersion: v1
 items:
